@@ -27,7 +27,13 @@
 
 
 // Estilos propios
-
+body{
+  overflow: hidden;
+}
+*{
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
 .text-primary {
   color: var( --ion-color-primary ) !important;
 }
